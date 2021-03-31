@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="188" height="187" viewBox="0 0 188 187">
+  <defs>
+    <filter id="skinny-orange" x="0" y="0" width="188" height="187" filterUnits="userSpaceOnUse">
+      <feOffset dy="-2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feFlood flood-color="#fff"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#skinny-orange)">
+    <g id="skinny-orange-2" data-name="skinny-orange" transform="translate(7.5 9.5)" fill="none" stroke="#ff8900" stroke-width="2" stroke-dasharray="3">
+      <ellipse cx="86.5" cy="86" rx="86.5" ry="86" stroke="none"/>
+      <ellipse cx="86.5" cy="86" rx="85.5" ry="85" fill="none"/>
+    </g>
+  </g>
+</svg>
