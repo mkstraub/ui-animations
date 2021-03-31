@@ -43,26 +43,30 @@ body {
 
 
 
-#circle-container2 {
+
+#circle-container {
     display: flex;
     position: relative;
     width: 300px;
     margin: auto;
-}
-
-#circle-container2 {
     margin-top: 100px;
+
+    #circle-1, #circle-2, #circle-3 {
+        width: auto;
+        margin: auto;
+        position: absolute;
+        top: 0;
+    }
+
+    #circle-1 img {
+        width: 196px;
+        margin-left: -16px;
+        margin-top: -15px;
+    }
+
+    #circle-3 img {
+        width: 140px;
+    }
 }
 
-#circle-b-1, #circle-b-2, #circle-b-3 {
-    width: auto;
-    margin: auto;
-    position: absolute;
-    top: 0;
-}
 
-#circle-b-1 img, #circle-b-2 img, #circle-b-3 img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}

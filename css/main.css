@@ -37,29 +37,30 @@ body {
   width: 100%;
 }
 
-#circle-container2 {
+#circle-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   position: relative;
   width: 300px;
   margin: auto;
-}
-
-#circle-container2 {
   margin-top: 100px;
 }
 
-#circle-b-1, #circle-b-2, #circle-b-3 {
+#circle-container #circle-1, #circle-container #circle-2, #circle-container #circle-3 {
   width: auto;
   margin: auto;
   position: absolute;
   top: 0;
 }
 
-#circle-b-1 img, #circle-b-2 img, #circle-b-3 img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+#circle-container #circle-1 img {
+  width: 196px;
+  margin-left: -16px;
+  margin-top: -15px;
+}
+
+#circle-container #circle-3 img {
+  width: 140px;
 }
 /*# sourceMappingURL=main.css.map */
